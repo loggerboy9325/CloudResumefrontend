@@ -39,10 +39,19 @@ resource "aws_s3_object" "ccp" {
   bucket = var.bucket
   key    = "portrait"
   source = "images/portrait.jpg"
+
+
  
 
 
 
+    }
+
+
+    resource "aws_s3_object" "error" {
+  bucket = var.bucket
+  key    = "404.html"
+  source = "404.html"
     }
 
       resource "aws_s3_object" "ssa" {
@@ -56,4 +65,5 @@ resource "aws_s3_object" "ccp" {
   key    = "SAP"
   source = "images/SAP.png"
  }
+
 
