@@ -62,7 +62,7 @@ resource "aws_s3_object" "ccp" {
 
 
 resource "aws_s3_bucket_website_configuration" "websiteconfig" {
-  bucket = aws_s3_bucket.var.bucket
+  bucket = var.bucket
 
   index_document {
     suffix = "index.html"
