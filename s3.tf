@@ -39,13 +39,7 @@ resource "aws_s3_object" "ccp" {
   bucket = var.bucket
   key    = "portrait"
   source = "images/portrait.jpg"
-
-
- 
-
-
-
-    }
+ }
 
 
     resource "aws_s3_object" "error" {
@@ -67,3 +61,23 @@ resource "aws_s3_object" "ccp" {
  }
 
 
+resource "aws_s3_bucket_website_configuration" "websiteconfig" {
+  bucket = aws_s3_bucket.var.bucket
+
+  index_document {
+    suffix = "index.html"
+  }
+
+  error_document {
+    key = "error.html"
+  }
+
+  routing_rule {
+    condition {
+      key_prefix_equals = "docs/"
+    }
+    redirect {
+      replace_key_prefix_with = "documents/"
+    }
+  }
+}
