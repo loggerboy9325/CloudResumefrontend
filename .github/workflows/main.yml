@@ -17,4 +17,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: S3 copy
-        run: aws s3 sync .  s3://gwresume-bucket423132313234343434 --delete
+        run: aws s3 sync ./s3_files/.  s3://gwresume-bucket423132313234343434 --delete
