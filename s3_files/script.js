@@ -1,5 +1,5 @@
 const API_URL =
-  "https://mfw95xhaef.execute-api.us-east-1.amazonaws.com/example/mydemoresource";
+  "https://vtp5k401kk.execute-api.us-east-1.amazonaws.com/example/mydemoresource";
 
 async function getvisitors() {
   const response = await fetch(API_URL);
