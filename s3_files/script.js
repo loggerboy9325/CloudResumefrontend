@@ -4,6 +4,7 @@ const API_URL =
 async function getvisitors() {
   const response = await fetch(API_URL);
   const json = await response.json();
+  const reader = body.getreader();
   console.log(response.body);
 }
 
