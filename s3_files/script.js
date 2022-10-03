@@ -6,3 +6,5 @@ async function getvisitors() {
   const json = await response.json();
   console.log(response);
 }
+
+getvisitors();
