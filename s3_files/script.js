@@ -8,4 +8,5 @@ async function getvisitors() {
   const body = response.body;
   document.getElementById("visit").insertAdjacentHTML("afterbegin", body);
 }
+
 getvisitors();
