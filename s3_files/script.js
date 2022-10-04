@@ -3,9 +3,9 @@ const API_URL =
 
 async function getvisitors() {
   const response = await fetch(API_URL);
-  const json = await response.json();
-  console.log(response.body);
-  const body = response.body;
+  const json = await response.text();
+  console.log(text.body);
+  const body = text.body;
   document.getElementById("visit").insertAdjacentHTML("afterbegin", body);
 }
 
