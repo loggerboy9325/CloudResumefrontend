@@ -1,7 +1,7 @@
 const getvisitors = async () => {
   try {
     const url =
-      "https://0nwrmyrkn2.execute-api.us-east-1.amazonaws.com/example/MyDemoResource";
+      "https://rf7sqy0lgl.execute-api.us-east-1.amazonaws.com/example/MyDemoResource";
     const res = await fetch(url);
     console.log(res.ok);
     const data = await res.json();
