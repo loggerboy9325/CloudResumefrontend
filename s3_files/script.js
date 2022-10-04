@@ -9,7 +9,7 @@ const getvisitors = async () => {
     const data = await res.json();
     console.log(data);
   } catch (err) {
-    console.error(err);
+    console.log(err);
   }
 };
 
