@@ -40,3 +40,5 @@ function fetchStream() {
     return reader.read().then(processText);
   });
 }
+
+fetchStream();
