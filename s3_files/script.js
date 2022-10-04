@@ -3,7 +3,7 @@ const API_URL =
 
 async function getvisitors() {
   const response = await fetch(API_URL);
-  const json = response.json();
+  const json = await response.json();
   console.log(json);
 }
 
