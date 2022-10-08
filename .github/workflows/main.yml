@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-job1:
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -19,11 +18,8 @@ job1:
           aws-region: us-east-1
       - name: S3 copy
         run: aws s3 sync ./s3_files/.  s3://resumecloud13 --delete
-job2:
-name: End-to-end tests
-on: [push]
-jobs:
-  cypress-run:
+  job2:
+    cypress-run:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
