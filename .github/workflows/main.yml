@@ -19,8 +19,7 @@ jobs:
       - name: S3 copy
         run: aws s3 sync ./s3_files/.  s3://resumecloud13 --delete
   job2:
-    cypress-run:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
