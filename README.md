@@ -6,12 +6,15 @@
 
 
 
-This repo has all the files associated with the frontend of my website
-
-
-![Frontend (3)](https://user-images.githubusercontent.com/101529495/194723415-6f67cfec-d849-4253-bc6d-95f0eb1afc9e.png)
+This repo has all the files associated with the frontend of my website for the cloud Resume Challenge 
 
 
 
 
-The Cypress workflow file tests my API and makes sure it returns visitor.
+![Frontend (6)](https://user-images.githubusercontent.com/101529495/194726354-d9a11a9b-3941-4b9a-96fc-731ae18b3230.png)
+
+
+
+
+
+
