@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c48a69e9-153c-4169-bc3a-51d8d3a98af3" name="Changes" comment="changed email">
-      <change afterPath="$PROJECT_DIR$/.idea/CloudResumefrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c48a69e9-153c-4169-bc3a-51d8d3a98af3" name="Changes" comment="changed email and pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3_files/George_wettlaufer_resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/s3_files/george_wett_resume1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3_files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/s3_files/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +15,11 @@
   </component>
   <component name="GOROOT" url="file:///snap/go/10603" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="featurebranch1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,7 +58,7 @@
     "git-widget-placeholder": "featurebranch1",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/loggerboy/Desktop/CloudResumefrontend/s3_files",
+    "last_opened_file_path": "/home/loggerboy/Desktop/CloudResumefrontend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -84,7 +86,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="featurebranch1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -94,7 +108,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed email and added new pdf" />
     <MESSAGE value="changed email" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed email" />
+    <MESSAGE value="changed email and pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed email and pdf" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
