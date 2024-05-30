@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48a69e9-153c-4169-bc3a-51d8d3a98af3" name="Changes" comment="changed email and pdf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s3_files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/s3_files/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
