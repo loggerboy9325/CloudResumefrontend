@@ -23,7 +23,7 @@
   </style>
 </head>
 
-<body class="w3-gray">
+<body class="w3-blue-gray">
 
   <!-- Page Container -->
   <div class="w3-content w3-margin-top" style="max-width:1500px;">
@@ -143,16 +143,39 @@
             organization's success.
           </p>
 
-
-
-
         </div>
-
-
         <div class="w3-container w3-card w3-gray w3-margin-bottom">
           <h2 class="w3-text-black w3-padding-16"><i
+                  class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Projects</h2>
+
+          <h5 class="w3-text-black"><b>Website using AWS/Cloud Resume Challenge</b></h5>
+
+          <p style="color: black">
+              My AWS architecture leverages various services to host a static website, manage DNS,
+              improve content delivery performance, automate infrastructure provisioning, execute serverless backend logic,
+              create APIs, and store data in a scalable database.
+            </p>
+
+          <img src="images/diagram.png"
+                 style="height: 600px; width: auto; margin-left: 18%; margin-right: auto; margin-bottom: 6% " alt="Avatar">
+        </div>
+          <div class="w3-container w3-card w3-gray  w3-margin-bottom">
+          <h2 class="w3-text-black w3-padding-16"><i
+                  class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Education</h2>
+            <h5 class="w3-text-black"><b>Sullivan County High School</b></h5>
+            <h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Graduated 06/11</h6>
+            <h5 class="w3-text-black"><b>boot.dev</b></h5>
+            <p style="color: black">I obtained certificates in Golang, Docker, Kubernetes, and CI/CD. These courses provided me with comprehensive
+              knowledge and hands-on experience in modern software development practices and tools. Through rigorous
+              training and practical exercises, I gained proficiency in building scalable applications, containerization, orchestration,
+              and implementing efficient CI/CD pipelines. These certifications validate my expertise and commitment to staying
+              current with industry trends in software development and deployment.</p>
+          </div>
+
+
+        <div class="w3-container w3-card w3-gray" >
+          <h2 class="w3-text-black w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Work Experience</h2>
-          <div class="w3-container">
             <h5 class="w3-text-black"><b>Maintenance/Security/Tyler Memorial Hospital</b></h5>
             <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>03/2021 - 06/2022</h6>
             <p style="color: black">
@@ -165,10 +188,7 @@
                 maintenance schedules to keep
                 equipment safe and functional</li>
             </p>
-
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-text-black"><b>Logging Equipment Operator / Jeffery A Wettlaufer Log Trucking</b></h5>
+          <h5 class="w3-text-black"><b>Logging Equipment Operator / Jeffery A Wettlaufer Log Trucking</b></h5>
             <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>01/2015 to 09/2020</h6>
             <p>
               <li style="color: black">Operated Log Skidder,Cut Down Trees, Bucked logs, Cleaned and maintained
@@ -178,63 +198,21 @@
                 results.</li>
               <li style="color: black">Inspected Equipment</li>
             </p>
-
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-text-black"><b>Logging Equipment Operator / George C Wettlaufer III Logging LLC </b></h5>
+          <h5 class="w3-text-black"><b>Logging Equipment Operator / George C Wettlaufer III Logging LLC </b></h5>
             <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>06/2011 to 08/2014</h6>
             <p style="color: black">
               <li style="color: black">Operated log skidder and feller buncher</li>
               <li style="color: black">Cut down trees cleaned and maintained equipment</li>
               <li style="color: black">Maintained energy and enthusiasm in fast-paced environment</li>
               <li style="color: black">Inspected Equipment</li>
-            </p><br>
-          </div>
-        </div>
-
-        <div class="w3-container w3-card w3-gray">
-          <h2 class="w3-text-black w3-padding-16"><i
-              class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Education/Projects</h2>
-          <div class="w3-container">
-            <h5 class="w3-text-black"><b>Sullivan County High School</b></h5>
-            <h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Graduated 06/11
-            </h6>
-
-
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-text-black"><b>Website using AWS/Cloud Resume Challenge</b></h5>
-
-
-
-            <p style="color: black">
-              I made this website as part of the Cloud Resume Challenge. Below are the resources that I used. This
-              website is hosted on AWS using a serverless architecture.
-              The visitor counter uses an API which was created in the AWS service API gateway. Every time a person
-              visits my website the API gets provoked which then invokes a
-              lambda function that writes the value to a Dynamodb table. I also used GitHub actions with terraform to
-              create a CI/CD deployment of this website.
             </p>
-
-            <br>
-
-
-
-
-
-
-            <img src="images/diagram.png"
-              style="height: 600px; width: auto; margin-left: 18%; margin-right: auto; margin-bottom: 6% " alt="Avatar">
+        </div>
+    </div>
 
 
 
 
 
-
-
-
-
-          </div>
 
 
           <!-- End Right Column -->
@@ -244,9 +222,9 @@
       </div>
 
       <!-- End Page Container -->
-    </div>
 
-    <footer class="w3-container w3-gray w3-center w3-margin-top">
+
+    <footer class="w3-container w3-blue-gray w3-text-black w3-center w3-margin-top">
       <p>Visitors:<span id="visit"></span>
         <script src="script.js"></script>
       </p>
@@ -257,7 +235,6 @@
 
     </footer>
 
-  </div>
 </body>
 
 </html>
