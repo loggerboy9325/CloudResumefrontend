@@ -1,241 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>gwresume</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Monofett&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-  <style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto", sans-serif
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
-
-<body class="w3-blue-gray">
-
-  <!-- Page Container -->
-  <div class="w3-content w3-margin-top" style="max-width:1500px;">
-
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-
-      <!-- Left Column -->
-      <div class="w3-third">
-
-        <div class="w3-gray w3-text-black w3-card-4">
-          <div class="w3-display-container">
-            <img src="images/portrait.jpg" style="width:90%" alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-black">
-
-            </div>
-          </div>
-          <div class="w3-container">
-            <p><i class="fa fa fa-child fa-fw w3-margin-right w3-large w3-text-black"></i>George Wettlaufer IV</p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>Pennsylvania, US</p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"></i>570-690-8249</p>
-            <p><i class="fa fa-github-square fa-fw w3-margin-right w3-large w3-text-black "></i><a
-                href="https://github.com/loggerboy9325" target="_blank">Github</a> </p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i><a
-                href="mailto: georgewettiv@gmail.com">georgewettiv@gmail.com</a></p>
-            <p><i class="fa fa-file-pdf-o fa-fw w3-margin-right w3-large w3-text-black "></i><a
-                href="george_wett_resume2.pdf" download="GeorgeWettlaufer_Resume.pdf">Resume</a>
-
-            <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-black"></i><a
-                href="https://www.linkedin.com/in/george-wettlaufer-iv-6402571b5" target="_blank"
-                rel="noopener noreferrer">LinkedIn</a></p>
-            <p><i class="fa fa-commenting-o fa-fw w3-margin-right w3-large w3-text-black"></i><a
-                href="https://dev.to/gwettlaufer/my-journey-through-the-cloud-resume-challenge-4egj" target="_blank"
-                rel="noopener noreferrer"> Blog</a></p>
-            <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-black"></i><a
-                    href="https://www.boot.dev/u/gwettlaufer" target="_blank"
-                    rel="noopener noreferrer">Boot.Dev</a></p>
+<style>
 
 
-            <p class="w3-large w3-text-theme"><b><i
-                  class="fa fa-certificate fa-fw w3-margin-right w3-text-black"></i>Certifications</b></p>
-            <img src="images/CCP.png" style="width:30%" alt="Avatar">
-            <img src="images/SAA.png" style="width:30%" alt="Avatar">
-            <img src="images/SAP.png" style="width:30%" alt="Avatar">
-            <img src="images/docker.png" style="width:30%" alt="Avatar">
-            <img src="images/go.png" style="width:30%" alt="Avatar">
-            <img src="images/CD.png" style="width:30%" alt="Avatar">
-            <img src="images/Kubernetes.png" style="width:30%" alt="Avatar">
-            <img src="images/git.png" style="width:30%" alt="Avatar">
-
-
-
-
-            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-black"></i>Skills</b>
+</style>
+<body>
+<div id="screen">
+    <img src="scanlines.png" id="scan" alt="scanlines">
+    <img src="bezel.png" id="bezel" alt="bezel">
+    <div class="row">
+    <div id = "content">
+        <div class="column">
+        <h1>George Wettlaufer IV</h1>
+            <li>Pennsylvania, US</li>
+            <li>570-690-8249</li>
+            <li><a href="https://github.com/loggerboy9325" target="_blank">Github</a></li>
+            <li><a href="mailto: georgewettiv@gmail.com" target="_blank">georgewettiv@gmail.com</a></li>
+            <li><a href="george_wett_resume2.pdf" target="GeorgeWettlaufer_Resume.pdf">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/george-wettlaufer-iv-6402571b5" target="_blank">LinkedIn</a></li>
+            <li><a href="https://dev.to/gwettlaufer/my-journey-through-the-cloud-resume-challenge-4egj" target="_blank">Blog</a></li>
+            <li><a href="https://www.boot.dev/u/gwettlaufer" target="_blank">Boot.Dev</a> </li>
+            <p>Visitors:<span id="visit"></span>
+                <script src="../script.js"></script>
             </p>
-            <ul>
-              <li>Amazon Web Services</li>
-              <li>Strong Work ethic</li>
-              <li>Dependability</li>
-              <li>Willingness to learn</li>
-              <li>Self-motivated</li>
-              <li>Terraform</li>
-              <li>Computer proficiency</li>
-              <li>Adaptability</li>
-              <li>Linux</li>
-              <li>Git</li>
-              <li>Golang</li>
-            </ul>
 
 
-            <br>
+            <h2>Certifications</h2>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>AWS Certified Architect Associate</li>
+            <li>AWS Certified Architect Professional</li>
+            <li>Boot.Dev - GO, Kubernetes, Docker, Git, CI/CD</li>
 
-            <p class="w3-large w3-text-theme"><b><i
-                  class="fa fa-certificate fa-fw w3-margin-right w3-text-black"></i>Hobbies</b></p>
-            <ul>
-              <li>Programming</li>
-              <li>Running</li>
-              <li>Video Games</li>
-              <li>Building PCs</li>
-
-            </ul>
-
+            <h3>Skills</h3>
+            <li>AWS, Terraform, Linux </li>
+            <li>Git, Go, Python</li>
+            <li>Strong work ethic, Dependability, Self-motivated</li>
 
 
-
-
-
-
-
-
-
-
-            <br>
-          </div>
-        </div><br>
-
-        <!-- End Left Column -->
-      </div>
-
-      <!-- Right Column -->
-      <div class="w3-twothird">
-
-        <div class="w3-container w3-card w3-gray w3-margin-bottom">
-          <h2 class="w3-text-black w3-padding-16"><i
-              class="fa fa-newspaper-o fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Professional Summary</h2>
-
-
-          <p style="color: black">
-            Dedicated and enthusiastic junior professional with a keen interest in AWS technologies.<br>
-            Eager to apply my foundational knowledge of cloud computing and AWS services to contribute effectively to
-            projects and initiatives.
-            Possessing a solid understanding of key AWS services such as EC2, S3, and Lambda,<br>
-            along with a willingness to continuously expand my skill set through hands-on experience and learning
-            opportunities.
-            Committed to delivering high-quality solutions while collaborating closely with team members to achieve
-            common goals.
-            Ready to leverage my passion for AWS to drive innovation and make meaningful contributions to the
-            organization's success.
-          </p>
 
         </div>
-        <div class="w3-container w3-card w3-gray w3-margin-bottom">
-          <h2 class="w3-text-black w3-padding-16"><i
-                  class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Projects</h2>
+        <div class="column">
 
-          <h5 class="w3-text-black"><b>Website using AWS/Cloud Resume Challenge</b></h5>
+            <h3>Experience</h3>
 
-          <p style="color: black">
-              My AWS architecture leverages various services to host a static website, manage DNS,
-              improve content delivery performance, automate infrastructure provisioning, execute serverless backend logic,
-              create APIs, and store data in a scalable database.
-            </p>
+            <h4>AWS Cloud Resume Challenge</h4>
 
-          <img src="images/diagram.png"
-                 style="height: 600px; width: auto; margin-left: 18%; margin-right: auto; margin-bottom: 6% " alt="Avatar">
+            <p>I built this website to reinforce My experience in AWS and
+            Learn through a hands on experience. This website has a api which gets
+                invoked and writes a value to dynamodb and returns that value hence the
+                visitor Counter<br>
+            Technologies used:</p>
+            <li>AWS S3, Lambda, API Gateway, Cloudfront, DynamoDB, Route53, ACM </li>
+            <li>CI/CD Deployment Via GitHub Actions</li>
+            <li>Infrastructure as Code: Terraform</li>
+            <h4>Tyler Memorial Hospital</h4>
+            <p>Maintenance/Security 03/2021 - 06/2022 </p>
+            <li>Monitored and patrolled buildings, grounds and work sites</li>
+            <li>Responded to emergency situations when called Upon. Fixed any deficiencies that
+                arose</li>
+
+            <h3>Education</h3>
+            <li>Boot.Dev</li>
+
+
         </div>
-          <div class="w3-container w3-card w3-gray  w3-margin-bottom">
-          <h2 class="w3-text-black w3-padding-16"><i
-                  class="fa fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Education</h2>
-            <h5 class="w3-text-black"><b>Sullivan County High School</b></h5>
-            <h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Graduated 06/11</h6>
-            <h5 class="w3-text-black"><b>boot.dev</b></h5>
-            <p style="color: black">I obtained certificates in Golang, Docker, Kubernetes, and CI/CD. These courses provided me with comprehensive
-              knowledge and hands-on experience in modern software development practices and tools. Through rigorous
-              training and practical exercises, I gained proficiency in building scalable applications, containerization, orchestration,
-              and implementing efficient CI/CD pipelines. These certifications validate my expertise and commitment to staying
-              current with industry trends in software development and deployment.</p>
-          </div>
-
-
-        <div class="w3-container w3-card w3-gray" >
-          <h2 class="w3-text-black w3-padding-16"><i
-              class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Work Experience</h2>
-            <h5 class="w3-text-black"><b>Maintenance/Security/Tyler Memorial Hospital</b></h5>
-            <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>03/2021 - 06/2022</h6>
-            <p style="color: black">
-              <li style="color: black">Monitored and patrolled buildings, grounds and work sites</li>
-              <li style="color: black">Monitored employee activities, confirming compliance with security regulations.
-              </li>
-              <li style="color: black">Responded to emergency situations when called Upon. Fixed any deficiencies that
-                arose.</li>
-              <li style="color: black">Inspected equipment, completed basic repairs and adhered to preventive
-                maintenance schedules to keep
-                equipment safe and functional</li>
-            </p>
-          <h5 class="w3-text-black"><b>Logging Equipment Operator / Jeffery A Wettlaufer Log Trucking</b></h5>
-            <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>01/2015 to 09/2020</h6>
-            <p>
-              <li style="color: black">Operated Log Skidder,Cut Down Trees, Bucked logs, Cleaned and maintained
-                equipment</li>
-              <li style="color: black">Carried Out day-day-day duties accurately and efficiently</li>
-              <li style="color: black">trees and placed felling wedges in strategic locations to achieve desired felling
-                results.</li>
-              <li style="color: black">Inspected Equipment</li>
-            </p>
-          <h5 class="w3-text-black"><b>Logging Equipment Operator / George C Wettlaufer III Logging LLC </b></h5>
-            <h6 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>06/2011 to 08/2014</h6>
-            <p style="color: black">
-              <li style="color: black">Operated log skidder and feller buncher</li>
-              <li style="color: black">Cut down trees cleaned and maintained equipment</li>
-              <li style="color: black">Maintained energy and enthusiasm in fast-paced environment</li>
-              <li style="color: black">Inspected Equipment</li>
-            </p>
-        </div>
+    </div>
     </div>
 
 
+</div>
 
 
 
-
-
-          <!-- End Right Column -->
-        </div>
-
-        <!-- End Grid -->
-      </div>
-
-      <!-- End Page Container -->
-
-
-    <footer class="w3-container w3-blue-gray w3-text-black w3-center w3-margin-top">
-      <p>Visitors:<span id="visit"></span>
-        <script src="script.js"></script>
-      </p>
-
-
-
-
-
-    </footer>
 
 </body>
-
 </html>
