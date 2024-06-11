@@ -222,6 +222,14 @@ a {
 	width: 2rem;
 }
 
+a[href="mailto:georgewettiv@gmail.com"] {
+	color: var(--text-color)
+
+}
+a[href="mailto:georgewettiv@gmail.com"]:hover { 
+	color: var(--primary-color);
+ }
+
 hr {
 	grid-column: 1/-1;
 	width: 80%;
